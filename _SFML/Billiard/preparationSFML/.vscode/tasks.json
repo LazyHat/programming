@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++ сборка активного файла",
+      "command": "/usr/bin/g++",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "source.cpp",
+        "-o",
+        "/home/lazyhat/CodeWars/Billiard/preparationSFML/BilliardSFML",
+        // "SourceFiles/Line.cpp",
+        //"SourceFiles/Ball.cpp",
+        //"SourceFiles/Border.cpp",
+        //"SourceFiles/GameCore.cpp",
+        //"Core.cpp",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system"
+      ],
+      "options": {
+        "cwd": "~/CodeWars/Billiard/preparationSFML"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Задача создана отладчиком."
+    }
+  ],
+  "version": "2.0.0"
+}
